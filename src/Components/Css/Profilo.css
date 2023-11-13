@@ -1,3 +1,20 @@
 #myfoto{
-    width: 100px;
+    width: 250px !important;
+    border-radius: 100px;
 }
+.about{
+    
+    display: flex;
+    text-overflow: ellipsis;
+}
+.animated-image {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 1s, transform 1s;
+    
+  }
+  
+  .animated-image.animate-in {
+    opacity: 1;
+    transform: translateX(0);
+  }
