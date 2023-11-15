@@ -1,0 +1,11 @@
+.stack_icon{
+    height: 100px;
+}
+
+.stack_icon_hover{
+    margin: 10px 0;
+}
+
+.stack_icon_hover:hover{
+    transform: scale(1.1);
+}
