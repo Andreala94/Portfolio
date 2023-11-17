@@ -1,5 +1,7 @@
 import React from 'react'
 import Slider from 'react-infinite-logo-slider'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 import '../Components/Css/Competenze.css'
 import CSS from '../Components/assets/CSS.png'
@@ -14,7 +16,7 @@ function Competenze() {
   return (
     <>
 
-      <div>Competenze</div>
+      <div className='d-flex justify-content-center'><h3><FontAwesomeIcon icon={faCode} /> Competenze <FontAwesomeIcon icon={faCode} /></h3></div>
 
       <div className='mt-5 w-75 d-flex'>
         <Slider
