@@ -18,7 +18,7 @@ function Profilo() {
       <div className='d-flex justify-content-center p-5'>
         <h2>Un pò di me</h2>
       </div>
-      <div className='d-flex align-items-center justify-content-center justify-content-around'>
+      <div className='d-flex align-items-center justify-content-center justify-content-around ms-5'>
         <div className='about w-50 m-5'>
           <h5>Mi chiamo Andrea Lauro, sono un ragazzo appassionato di tecnologia con la voglia d'imparare sempre cose nuove,
             ma sopratutto di mettersi in gioco. Attualmente mi sto dedicando alla programmazione imparando sempre cose nuove.
