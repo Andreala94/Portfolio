@@ -8,6 +8,13 @@ import Navbar from 'react-bootstrap/Navbar';
 
 
 function NavBar ()  {
+
+
+  const scroll = (event) =>{
+    event.preventDefault(); // Evita il comportamento predefinito del link
+    const section = document.querySelector('#contatti');
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
   return (
     <Navbar expand="lg" className="bg-body-tertiary shadow">
       <Container>
@@ -18,7 +25,7 @@ function NavBar ()  {
           <Nav className="me-auto ">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Progetti</Nav.Link>
-            <Nav.Link href="#link">Contatti</Nav.Link>
+            <Nav.Link href="#link" id='contatti' onClick={scroll}>Contatti</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

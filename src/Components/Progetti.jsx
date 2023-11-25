@@ -14,14 +14,14 @@ const Progetti = () => {
       <>
       <div className='d-flex justify-content-center my-5'><h3><FontAwesomeIcon icon={faCode} /> Progetti <FontAwesomeIcon icon={faCode} /></h3></div>
      
-      <Container className='my-5 '>
+      <Container className='my-5'>
       <Row>
         <Col xs={12} md={6}>
-          <Image src={ProfiloGit} fluid />
+          <Image src={ProfiloGit} className='immagine' fluid />
         </Col>
 
         <Col xs={12} md={6}>
-          <Image src={EventiPuglia} fluid />
+          <Image src={EventiPuglia} className='immagine' fluid />
         </Col>
       </Row>
     </Container>
