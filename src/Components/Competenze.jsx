@@ -10,7 +10,7 @@ import ReactJS from '../Components/assets/React.png'
 import MongoDB from '../Components/assets/MongoDB.png'
 import Bootstrap from '../Components/assets/Bootstrap.png'
 import HTML from '../Components/assets/HTML.png'
-// import CSS from '../Components/assets/Css.png'
+import CSS from '../Components/assets/Css.png'
 
 function Competenze() {
   return (
@@ -31,11 +31,11 @@ function Competenze() {
               <img src={Bootstrap} alt="any" className='w-30 stack_icon' />
             </div>
           </Slider.Slide>
-          {/* <Slider.Slide>
+          <Slider.Slide>
             <div className='text-center stack_icon_hover'>
               <img src={CSS} alt="any" className='w-30 stack_icon' />
             </div>
-          </Slider.Slide> */}
+          </Slider.Slide>
           <Slider.Slide>
             <div className='text-center stack_icon_hover'>
               <img src={HTML} alt="any" className='w-30 stack_icon' />
