@@ -6,7 +6,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 import '../Components/Css/Competenze.css'
 import JS from '../Components/assets/JS.png'
 import Node from '../Components/assets/Node.png'
-import ReactJS from '../Components/assets/React.png'
+import ReactJS from '../Components/assets/react.png'
 import MongoDB from '../Components/assets/MongoDB.png'
 import Bootstrap from '../Components/assets/Bootstrap.png'
 import HTML from '../Components/assets/HTML.png'
