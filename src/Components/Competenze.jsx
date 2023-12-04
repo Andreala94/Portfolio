@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 import '../Components/Css/Competenze.css'
-import CSS from '../Components/assets/CSS.png'
+import CSS from '../Components/assets/Css.png'
 import JS from '../Components/assets/JS.png'
 import Node from '../Components/assets/Node.png'
 import ReactJS from '../Components/assets/React.png'
