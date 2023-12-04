@@ -18,7 +18,7 @@ function Competenze() {
 
       <div className='d-flex justify-content-center'><h3><FontAwesomeIcon icon={faCode} /> Competenze <FontAwesomeIcon icon={faCode} /></h3></div>
 
-      <div className='mt-5 w-75 d-flex'>
+      <div className='mt-5'>
         <Slider
           width="250px"
           duration={30}

@@ -12,7 +12,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 const Progetti = () => {
 
   const openEventi = () =>{
-    window.open('https://main--musical-sorbet-f2f617.netlify.app/', '_blank');
+    window.open('https://eventipuglia.netlify.app', '_blank');
   }
   const openGitHub = () =>{
     window.open('https://github.com/Andreala94', '_blank');
@@ -31,7 +31,7 @@ const Progetti = () => {
         </Col>
     
         <Col xs={12} md={6}>
-        <a href="https://main--musical-sorbet-f2f617.netlify.app/" target="_blank" rel="noopener noreferrer" onClick={openEventi}>
+        <a href="https://eventipuglia.netlify.app" target="_blank" rel="noopener noreferrer" onClick={openEventi}>
           <Image src={EventiPuglia}  className='immagine' fluid />
         </a>
         </Col>
