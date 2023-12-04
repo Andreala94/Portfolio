@@ -8,7 +8,15 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 
 
+
 const Progetti = () => {
+
+  const openEventi = () =>{
+    window.open('https://main--musical-sorbet-f2f617.netlify.app/', '_blank');
+  }
+  const openGitHub = () =>{
+    window.open('https://github.com/Andreala94', '_blank');
+  }
   
     return (
       <>
@@ -17,11 +25,15 @@ const Progetti = () => {
       <Container className='my-5'>
       <Row>
         <Col xs={12} md={6}>
+        <a href="https://github.com/Andreala94" target="_blank" rel="noopener noreferrer" onClick={openGitHub}>
           <Image src={ProfiloGit} className='immagine' fluid />
+          </a>
         </Col>
-
+    
         <Col xs={12} md={6}>
-          <Image src={EventiPuglia} className='immagine' fluid />
+        <a href="https://main--musical-sorbet-f2f617.netlify.app/" target="_blank" rel="noopener noreferrer" onClick={openEventi}>
+          <Image src={EventiPuglia}  className='immagine' fluid />
+        </a>
         </Col>
       </Row>
     </Container>
